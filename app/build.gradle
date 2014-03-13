@@ -9,7 +9,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 19
         versionCode 1
-        versionName "1.0-SNAPSHOT"
+        versionName version
     }
     buildTypes {
         release {
@@ -23,7 +23,11 @@ android {
 }
 
 release {
-	failOnPublishNeeded = false
+	releaseVersion = version
+	failOnSnapshotDependencies = true
+	allowLocalModifications = false
+	releaseDryRun = false
+	scm = 'git'
 }
 
 dependencies {

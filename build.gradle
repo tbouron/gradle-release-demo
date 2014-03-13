@@ -3,11 +3,13 @@
 buildscript {
     repositories {
         mavenCentral()
-		maven {url "https://oss.sonatype.org/content/groups/public"}
+		maven {
+			url 'http://maven.tmatesoft.com/content/repositories/releases/'
+		}
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:0.9.+'
-		classpath 'com.github.townsfolk:gradle-release:1.2'
+		classpath 'au.com.ish.gradle:release:2.2.2'
     }
 }
 
