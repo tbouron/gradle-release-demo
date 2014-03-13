@@ -23,7 +23,7 @@ android {
 }
 
 release {
-	failOnPublishNeeded false
+	failOnPublishNeeded = false
 }
 
 dependencies {
