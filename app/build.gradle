@@ -28,6 +28,7 @@ release {
 	releaseDryRun = false
 	scm = 'git'
 }
+version = release.projectVersion
 
 dependencies {
     compile 'com.android.support:gridlayout-v7:19.0.1'
