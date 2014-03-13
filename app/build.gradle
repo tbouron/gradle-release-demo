@@ -1,5 +1,4 @@
 apply plugin: 'android'
-apply plugin: 'release'
 
 android {
     compileSdkVersion 19
@@ -21,14 +20,6 @@ android {
 		abortOnError false
 	}
 }
-
-release {
-	failOnSnapshotDependencies = true
-	allowLocalModifications = false
-	releaseDryRun = false
-	scm = 'git'
-}
-version = release.projectVersion
 
 dependencies {
     compile 'com.android.support:gridlayout-v7:19.0.1'
