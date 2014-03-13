@@ -3,7 +3,7 @@ apply plugin: 'release'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.1"
+    buildToolsVersion "19.0.2"
 
     defaultConfig {
         minSdkVersion 11
@@ -25,6 +25,6 @@ android {
 dependencies {
     compile 'com.android.support:gridlayout-v7:19.0.1'
     compile 'com.android.support:appcompat-v7:+'
-    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.android.support:support-v4:19.0.1'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
