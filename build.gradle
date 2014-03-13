@@ -23,7 +23,5 @@ apply plugin: 'release'
 
 release {
 	failOnUnversionedFiles = false
-	failOnUpdateNeeded = false
 	failOnPublishNeeded = false
-	failOnCommitNeeded = false
 }
