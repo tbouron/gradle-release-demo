@@ -24,4 +24,5 @@ apply plugin: 'release'
 release {
 	failOnUnversionedFiles = false
 	failOnPublishNeeded = false
+	requireBranch = ''
 }
