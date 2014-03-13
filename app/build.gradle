@@ -1,4 +1,5 @@
 apply plugin: 'android'
+apply plugin: 'release'
 
 android {
     compileSdkVersion 19
@@ -8,7 +9,7 @@ android {
         minSdkVersion 11
         targetSdkVersion 19
         versionCode 1
-        versionName "1.0"
+        versionName version
     }
     buildTypes {
         release {
